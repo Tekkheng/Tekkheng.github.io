@@ -126,18 +126,18 @@ div.card{
     width: 18rem;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
 }
 
-div.card:hover{
+a.btn_order:hover{
     background-color: rgb(98, 175, 226);
-    color: rgb(255, 255, 255);
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    border: 1px solid rgb(98, 175, 226);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
 }
 
 img.myproduct{
@@ -148,4 +148,45 @@ img.myproduct{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+a.gallery{
+    border: 1px solid #FFC107;
+    color: #FFC107;
+    margin-left: 8px;
+}
+a.gallery:hover{
+    color: rgb(98, 175, 226);
+    border: 1px solid rgb(98, 175, 226);
+    background-color: transparent;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+img.mygallery{
+    width: 12rem;
+    border: 5px solid #FFC107;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    margin-bottom: 350px;
+}
+
+div.card_gallery{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    margin-top:100px;
+}
+
+div.body-caption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
 }
