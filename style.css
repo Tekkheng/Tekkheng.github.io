@@ -226,7 +226,20 @@ div.card_gallery{
 div.body-caption{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     align-items: center;
+}
+
+@media screen and (max-width : 812px){
+    div.body-caption{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+    div.caption{
+        font-size: 10px;
+    }
 }
