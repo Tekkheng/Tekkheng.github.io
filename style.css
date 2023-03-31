@@ -113,3 +113,39 @@ i:hover{
       width: 50%;
     }
 }
+
+div.mycard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.card{
+    width: 18rem;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.card:hover{
+    background-color: rgb(98, 175, 226);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+img.myproduct{
+    width: 12rem;
+    border: 15px solid #FFC107;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
